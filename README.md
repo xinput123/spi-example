@@ -1,9 +1,7 @@
 ## SPI机制
-JDK提供的SPI(Service Provider Interface)机制，可能很
-多人不太熟悉，因为这个机制是针对厂商或者插件的，也可以在一些
-框架的扩展中看到。其核心类java.util.ServiceLoader可以
-在jdk1.8的文档中看到详细的介绍。虽然不太常见，但并不代表它
-不常用，恰恰相反，你无时无刻不在用它。
+JDK提供的SPI(Service Provider Interface)机制，因为这个机制是针对厂商
+或者插件的，也可以在一些框架的扩展中看到。其核心类java.util.ServiceLoader可以
+在jdk1.8的文档中看到详细的介绍。虽然不太常见，但并不代表它不常用，恰恰相反，你无时无刻不在用它。
 
 ## 自定义SPI项目
 ### 1、项目结构
